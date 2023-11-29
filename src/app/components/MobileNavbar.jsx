@@ -32,7 +32,7 @@ const MobileNavbar = () => {
         </div>
       </div>
       {isOpen ? (
-        <div className="grid lg:hidden h-fit justify-start text-[16px] font-sans z-40 fixed bg-blue right-0 w-full pt-16">
+        <div className="grid lg:hidden h-fit justify-start text-[16px] font-sans z-40 fixed bg-blue right-0 w-full pt-16 text-white">
           <div className="w-screen h-fit p-2 hover:bg-red ease-in-out duration-200">
             <Link href="/">
               <h2
