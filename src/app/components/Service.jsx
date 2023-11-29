@@ -1,6 +1,7 @@
+"use client";
 import React from "react";
 import { Text } from "./containers/Language";
-import Link from "next/link";
+// import Link from "next/link";
 
 const Service = () => {
   return (

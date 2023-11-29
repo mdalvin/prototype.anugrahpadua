@@ -1,3 +1,4 @@
+"use client";
 import { Payment, PaymentSystem } from "../components";
 
 export default function ServicePage() {

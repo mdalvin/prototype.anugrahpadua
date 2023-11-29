@@ -1,3 +1,4 @@
+"use client";
 import { Partnership } from "../components";
 
 export default function PartnerPage() {
