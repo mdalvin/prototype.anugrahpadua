@@ -32,11 +32,15 @@ const MobileNavbar = () => {
         </div>
       </div>
       {isOpen ? (
-        <div className="grid lg:hidden h-fit justify-start text-[16px] font-sans z-40 fixed bg-blue right-0 w-full pt-16 text-white">
-          <div className="w-screen h-fit p-2 hover:bg-red ease-in-out duration-200">
+        <div className="grid lg:hidden h-72 justify-start text-[16px] font-sans z-40 fixed bg-blue right-0 w-full pt-16 text-white">
+          <div
+            className={`w-screen h-fit p-2 ${
+              currentlyActive === "home" ? "bg-red" : "bg-blue"
+            }`}
+          >
             <Link href="/">
               <h2
-                className="cursor-pointer uppercase text-sm hover:bg-red"
+                className="cursor-pointer uppercase text-sm"
                 style={{ fontWeight: currentlyActive === "home" ? "800" : "" }}
                 onClick={() => onSelect("home")}
               >
@@ -44,7 +48,11 @@ const MobileNavbar = () => {
               </h2>
             </Link>
           </div>
-          <div className="w-screen h-fit p-2 hover:bg-red ease-in-out duration-200">
+          <div
+            className={`w-screen h-fit p-2 ${
+              currentlyActive === "about" ? "bg-red" : "bg-blue"
+            }`}
+          >
             <Link href="/about">
               <h2
                 className="cursor-pointer uppercase text-sm"
@@ -55,20 +63,28 @@ const MobileNavbar = () => {
               </h2>
             </Link>
           </div>
-          <div className="w-screen h-fit p-2 hover:bg-red ease-in-out duration-200">
+          <div
+            className={`w-screen h-fit p-2 ${
+              currentlyActive === "service" ? "bg-red" : "bg-blue"
+            }`}
+          >
             <Link href="/services">
               <h2
                 className="cursor-pointer uppercase text-sm"
                 style={{
-                  fontWeight: currentlyActive === "facilities" ? "800" : "",
+                  fontWeight: currentlyActive === "service" ? "800" : "",
                 }}
-                onClick={() => onSelect("facilities")}
+                onClick={() => onSelect("service")}
               >
                 <Text tid={"service_nav"} />
               </h2>
             </Link>
           </div>
-          <div className="w-screen h-fit p-2 hover:bg-red ease-in-out duration-200">
+          <div
+            className={`w-screen h-fit p-2 ${
+              currentlyActive === "payment" ? "bg-red" : "bg-blue"
+            }`}
+          >
             <Link href="/payment">
               <h2
                 className="cursor-pointer uppercase text-sm"
@@ -81,7 +97,11 @@ const MobileNavbar = () => {
               </h2>
             </Link>
           </div>
-          <div className="w-screen h-fit p-2 hover:bg-red ease-in-out duration-200">
+          <div
+            className={`w-screen h-fit p-2 ${
+              currentlyActive === "partnership" ? "bg-red" : "bg-blue"
+            }`}
+          >
             <Link href="/partnership">
               <h2
                 className="cursor-pointer uppercase text-sm"
@@ -94,7 +114,7 @@ const MobileNavbar = () => {
               </h2>
             </Link>
           </div>
-          <div className="w-screen h-fit p-2 hover:bg-red ease-in-out duration-200">
+          <div className={`w-screen h-fit p-2`}>
             <LanguageSelector />
           </div>
         </div>
