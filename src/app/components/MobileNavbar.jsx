@@ -19,7 +19,7 @@ const MobileNavbar = () => {
   return (
     <>
       <div
-        className="w-screen grid lg:hidden py-4 px-[25px] h-fit lg:px-28 m-0 justify-end bg-white text-blue fixed z-50 shadow items-center top-0"
+        className="w-screen grid lg:hidden px-[25px] h-14 lg:px-28 justify-end bg-white text-blue fixed z-50 shadow items-center top-0"
         id="navbar"
       >
         <div className="w-full h-fit relative">
