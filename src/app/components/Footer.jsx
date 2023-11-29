@@ -73,7 +73,7 @@ const Footer = () => {
                 <li className="text-xs lg:text-sm mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
                   <Text tid={"service_4"} />
                 </li>
-                <li className="text-xs lg:text-sm mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
+                <li className="text-xs lg:text-sm mt-2 lg:mt-4 font-light hover:text-red cursor-pointer w-[90%] lg:w-full">
                   <Text tid={"service_5"} />
                 </li>
               </ul>
@@ -154,7 +154,7 @@ const Footer = () => {
                   </span>
                   08129316841
                 </li>
-                <li className="text-xs lg:text-sm mt-2 lg:mt-4 font-light w-[90%] flex">
+                <li className="text-xs lg:text-sm mt-2 lg:mt-4 font-light flex">
                   <span className="mr-1 text-red">
                     <WarehouseIcon />
                   </span>
@@ -164,7 +164,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-full justify-center py-2 flex text-[#7391C5] items-center uppercase text-xs text-opacity-20">
+        <div className="w-full text-center justify-center py-2 flex text-[#7391C5] items-center uppercase text-xs text-opacity-20">
           <p className="cursor-pointer">
             TECHNOLOGY WEBSITE DEVELOPED BY CODENOVELTY
           </p>

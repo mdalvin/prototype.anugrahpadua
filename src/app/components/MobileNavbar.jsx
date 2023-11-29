@@ -32,7 +32,7 @@ const MobileNavbar = () => {
         </div>
       </div>
       {isOpen ? (
-        <div className="grid lg:hidden h-72 justify-start text-[16px] font-sans z-40 fixed bg-blue right-0 w-full pt-16 text-white">
+        <div className="grid lg:hidden h-72 justify-start text-[16px] font-sans z-40 fixed bg-blue right-0 w-full pt-14 text-white">
           <div
             className={`w-screen h-fit p-2 ${
               currentlyActive === "home" ? "bg-red" : "bg-blue"
