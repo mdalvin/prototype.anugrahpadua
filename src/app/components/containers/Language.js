@@ -11,17 +11,17 @@ export const LanguageContext = createContext({
 
 // it provides the language context to app
 export function LanguageProvider({ children }) {
-  //   const defaultLanguage = window.localStorage.getItem("rcml-lang");
-  //   const [userLanguage, setUserLanguage] = useState(defaultLanguage || "en");
-  const [userLanguage, setUserLanguage] = useState("en");
+  const defaultLanguage = window.localStorage.getItem("rcml-lang");
+  const [userLanguage, setUserLanguage] = useState(defaultLanguage || "en");
+  //   const [userLanguage, setUserLanguage] = useState("eng");
 
   const provider = {
     userLanguage,
     dictionary: dictionaryList[userLanguage],
     userLanguageChange: (selected) => {
-      const newLanguage = languageOptions[selected] ? selected : "en";
+      const newLanguage = languageOptions[selected] ? selected : "eng";
       setUserLanguage(newLanguage);
-      //   window.localStorage.setItem("rcml-lang", newLanguage);
+      window.localStorage.setItem("rcml-lang", newLanguage);
     },
   };
 
