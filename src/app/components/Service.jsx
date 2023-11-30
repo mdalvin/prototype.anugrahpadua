@@ -20,24 +20,24 @@ const Service = () => {
       </div>
       <div className="flex lg:justify-center justify-between w-full h-fit text-blue py-2">
         <div className="grid h-fit w-[33%] text-center items-center justify-center">
-          <div className="w-24 h-24 grid rounded-full bg-blue border-2 border-white mb-1 place-self-center items-center justify-center">
-            <div className="bg-truck h-20 w-20 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+          <div className="w-24 h-24 grid rounded-full mb-1 place-self-center items-center justify-center">
+            <div className="bg-truck h-24 w-24 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
           </div>
           <p className="font-medium uppercase text-xs">
             <Text tid={"service_1"} />
           </p>
         </div>
         <div className="grid h-fit w-[33%] text-center items-center justify-center">
-          <div className="w-24 h-24 grid rounded-full bg-blue border-2 border-white mb-1 place-self-center items-center justify-center">
-            <div className="bg-ship h-20 w-20 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+          <div className="w-24 h-24 grid rounded-full mb-1 place-self-center items-center justify-center">
+            <div className="bg-ship h-24 w-24 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
           </div>
           <p className="font-medium uppercase text-xs">
             <Text tid={"service_2"} />
           </p>
         </div>
         <div className="grid h-fit w-[33%] text-center items-center justify-center">
-          <div className="w-24 h-24 grid rounded-full bg-blue border-2 border-white mb-1 place-self-center items-center justify-center">
-            <div className="bg-insurance h-20 w-20 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+          <div className="w-24 h-24 grid rounded-full mb-1 place-self-center items-center justify-center">
+            <div className="bg-insurance h-24 w-24 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
           </div>{" "}
           <p className="font-medium uppercase text-xs">
             <Text tid={"service_3"} />
@@ -46,16 +46,16 @@ const Service = () => {
       </div>
       <div className="flex justify-left lg:justify-center w-full h-fit text-blue py-2 mt-4 mb-10">
         <div className="grid h-fit w-[33%] lg:w-[33%] text-center items-center justify-center">
-          <div className="w-24 h-24 grid rounded-full bg-blue border-2 border-white mb-1 place-self-center items-center justify-center">
-            <div className="bg-carShipping h-20 w-20 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+          <div className="w-24 h-24 grid rounded-full mb-1 place-self-center items-center justify-center">
+            <div className="bg-carShipping h-24 w-24 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
           </div>{" "}
           <p className="font-medium uppercase text-xs">
             <Text tid={"service_4"} />
           </p>
         </div>
         <div className="grid h-fit w-[33%] lg:w-[33%] text-center items-center justify-center">
-          <div className="w-24 h-24 grid rounded-full bg-blue border-2 border-white mb-1 place-self-center items-center justify-center">
-            <div className="bg-heavy h-20 w-20 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+          <div className="w-24 h-24 grid rounded-full mb-1 place-self-center items-center justify-center">
+            <div className="bg-heavy h-24 w-24 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
           </div>{" "}
           <p className="font-medium uppercase text-xs">
             <Text tid={"service_5"} />
@@ -113,24 +113,24 @@ const Service = () => {
       </div>
       <div className="flex lg:justify-center justify-between w-full h-fit text-blue py-2">
         <div className="grid w-[33%] h-fit text-center items-center justify-center">
-          <div className="w-24 h-24 grid rounded-full bg-orange border-2 border-red mb-1 place-self-center items-center justify-center">
-            <div className="bg-pricing h-20 w-20 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+          <div className="w-24 h-24 grid rounded-full bg-red mb-1 place-self-center items-center justify-center">
+            <div className="bg-pricing h-[90px] w-[90px] bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
           </div>{" "}
           <p className="font-semibold uppercase text-xs lg:text-lg">
             <Text tid={"reason_1"} />
           </p>
         </div>
         <div className="grid w-[33%] h-fit text-center items-center justify-center">
-          <div className="w-24 h-24 grid rounded-full bg-orange border-2 border-red mb-1 place-self-center items-center justify-center">
-            <div className="bg-pro h-20 w-20 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+          <div className="w-24 h-24 grid rounded-full bg-red mb-1 place-self-center items-center justify-center">
+            <div className="bg-pro h-[90px] w-[90px] bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
           </div>{" "}
           <p className="font-semibold uppercase text-xs lg:text-lg">
             <Text tid={"reason_2"} />
           </p>
         </div>
         <div className="grid w-[33%] h-fit text-center items-center justify-center">
-          <div className="w-24 h-24 grid rounded-full bg-orange border-2 border-red mb-1 place-self-center items-center justify-center">
-            <div className="bg-pay h-20 w-20 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+          <div className="w-24 h-24 grid rounded-full bg-red mb-1 place-self-center items-center justify-center">
+            <div className="bg-pay h-[90px] w-[90px] bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
           </div>{" "}
           <p className="font-semibold uppercase text-xs lg:text-lg">
             <Text tid={"reason_3"} />
@@ -139,24 +139,24 @@ const Service = () => {
       </div>
       <div className="flex lg:justify-center justify-between w-full h-fit text-blue py-10">
         <div className="grid w-[33%] h-fit text-center items-center justify-center">
-          <div className="w-24 h-24 grid rounded-full bg-orange border-2 border-red mb-1 place-self-center items-center justify-center">
-            <div className="bg-discount h-20 w-20 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+          <div className="w-24 h-24 grid rounded-full bg-red mb-1 place-self-center items-center justify-center">
+            <div className="bg-discount h-[90px] w-[90px] bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
           </div>{" "}
           <p className="font-semibold uppercase text-xs lg:text-lg">
             <Text tid={"reason_4"} />
           </p>
         </div>
         <div className="grid w-[33%] h-fit text-center items-center justify-center">
-          <div className="w-24 h-24 grid rounded-full bg-orange border-2 border-red mb-1 place-self-center items-center justify-center">
-            <div className="bg-dtd h-20 w-20 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+          <div className="w-24 h-24 grid rounded-full bg-red mb-1 place-self-center items-center justify-center">
+            <div className="bg-dtd h-[90px] w-[90px] bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
           </div>{" "}
           <p className="font-semibold uppercase text-xs lg:text-lg">
             <Text tid={"reason_5"} />
           </p>
         </div>
         <div className="grid w-[33%] h-fit text-center items-center justify-center">
-          <div className="w-24 h-24 grid rounded-full bg-orange border-2 border-red mb-1 place-self-center items-center justify-center">
-            <div className="bg-shippingIns h-20 w-20 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+          <div className="w-24 h-24 grid rounded-full bg-red mb-1 place-self-center items-center justify-center">
+            <div className="bg-shippingIns h-[90px] w-[90px] bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
           </div>{" "}
           <p className="font-semibold uppercase text-xs lg:text-lg">
             <Text tid={"reason_6"} />

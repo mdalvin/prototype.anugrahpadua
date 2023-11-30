@@ -65,7 +65,7 @@ const Partner = () => {
       <div className="grid justify-center w-full h-fit text-blue mt-12 lg:mt-6">
         <Link href={"/partnership"}>
           <button className="bg-red w-fit rounded-xl font-medium text-white px-5 py-2 hover:bg-[#7391C5] ease-in-out duration-200 text-sm lg:text-lg">
-            See All Partner
+            <Text tid={"pcta"} />
           </button>
         </Link>
       </div>

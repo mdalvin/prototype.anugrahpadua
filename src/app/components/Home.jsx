@@ -16,7 +16,7 @@ const Hero = () => {
           </h1>
           <Link href={"/services"}>
             <button className="bg-red w-fit rounded-xl font-medium text-white px-5 py-2 hover:bg-[#7391C5] ease-in-out duration-200 text-sm lg:text-lg mt-6">
-              See All Service
+              <Text tid={"hcta"} />
             </button>
           </Link>
         </div>

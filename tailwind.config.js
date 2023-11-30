@@ -19,24 +19,24 @@ module.exports = {
           "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/pattern_triangle_CdFymBIVy.png?updatedAt=1701220766625)",
         lines:
           "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/lines_BSBSxrvre.png?updatedAt=1701221853184)",
-        ship: "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/ship_qO5PuoAQb.png?updatedAt=1701229071436)",
+        ship: "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/Icons/2%20kargo%20Laut_1cRtwNKL8_.png?updatedAt=1701361025181)",
         truck:
-          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/truck_9HvRTIOKl.png?updatedAt=1701229495097)",
+          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/Icons/2%20pengiriman%20kendaraan_BIqXKZFIw.png?updatedAt=1701361025105)",
         insurance:
-          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/insurance_J3CDLAd6P.png?updatedAt=1701229705946)",
+          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/Icons/2%20Asuransi%20pengiriman_YaqZ-X7mkD.png?updatedAt=1701361024853)",
         carShipping:
-          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/carShipping_nR2Ssn50v.png?updatedAt=1701229982740)",
+          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/Icons/2%20kargo%20darat_Hd-fO3dlY.png?updatedAt=1701361024996)",
         heavy:
           "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/heavy_g2Mg7vAXP.png?updatedAt=1701230307369)",
-        pay: "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/paymentss_iDc_Wvfvw.png?updatedAt=1701241532995)",
+        pay: "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/Icons/3%20Flexible%20Payment_HTvm8P0uFN.png?updatedAt=1701361029113)",
         pricing:
-          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/pricing_TsBN6t_Vn2.png?updatedAt=1701231424746)",
+          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/Icons/3%20price_LXZpk60oV.png?updatedAt=1701361029685)",
         shippingIns:
-          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/shippingInsurance_DB8X-TixX.png?updatedAt=1701231424713)",
+          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/Icons/4%20Insurance_i-uw3gtYkp.png?updatedAt=1701361028796)",
         discount:
-          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/discount__bfD55oS9.png?updatedAt=1701231424634)",
-        pro: "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/prof_HJiUjK0ke.png?updatedAt=1701242100159)",
-        dtd: "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/dtd_gMJSrxEuF.png?updatedAt=1701231424542)",
+          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/Icons/3%20discount_XNEwTnFZiA.png?updatedAt=1701361028081)",
+        pro: "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/Icons/3%20partnership_6_JOhm9ta.png?updatedAt=1701361029160)",
+        dtd: "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/Icons/4%20d2d%20service_mrgxjJY4_.png?updatedAt=1701361028853)",
         tech: "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/tecch_-CbpxU_kc2.png?updatedAt=1701243084537)",
         team: "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/team_adUHg__Z4.png?updatedAt=1701235130848)",
         route:
@@ -44,23 +44,23 @@ module.exports = {
         wprice:
           "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/white_pricing_EsymVU31H.png?updatedAt=1701235130635)",
         redroute:
-          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/redroute_96IhUjHot.png?updatedAt=1701235963407)",
+          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/Icons/4%20route_hI8_bbAQv.png?updatedAt=1701361031405)",
         permit:
-          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/permit_Vt6UpksW9.png?updatedAt=1701235963456)",
+          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/Icons/4%20licensing_j7PIRm0uJ.png?updatedAt=1701361028319)",
         checklist:
-          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/checklits_kVfuX1jem.png?updatedAt=1701235963206)",
+          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/Icons/4%20check%20list_nrPNvYQsU.png?updatedAt=1701361028973)",
         longtruck:
           "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/ap4_47O73-0dq.jpeg?updatedAt=1701238754154)",
         quality:
-          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/quality__a0KEXz4L.png?updatedAt=1701241002626)",
+          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/Icons/1%20Service%20quality_rh8cOKiN_U.png?updatedAt=1701361024861)",
         vision:
-          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/vision_F4ph7wY-A.png?updatedAt=1701241002478)",
+          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/Icons/1%20Vision_R5MTNrGBrB.png?updatedAt=1701361024807)",
         mission:
-          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/mission_A7fJY7SPl.png?updatedAt=1701241002574)",
+          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/Icons/1%20mision_7PnH0UlTK.png?updatedAt=1701361024972)",
         safety:
-          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/safety_QizTbHfHv.png?updatedAt=1701241002557)",
+          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/Icons/1%20work%20safety_43VheTnjA.png?updatedAt=1701361024923)",
         inovation:
-          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/inovation_uQWpm16Wy.png?updatedAt=1701241002594)",
+          "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/Icons/1%20Inovation_erw6glnn_F.png?updatedAt=1701361024878)",
       },
       colors: {
         primary: "#E9E0D6",

@@ -1,4 +1,4 @@
-import { About, CompanyValues, VnM } from "../components";
+import { About, CompanyValues, Gallery, VnM } from "../components";
 
 export default function AboutPage() {
   return (
@@ -6,6 +6,7 @@ export default function AboutPage() {
       <About />
       <VnM />
       <CompanyValues />
+      <Gallery />
     </main>
   );
 }

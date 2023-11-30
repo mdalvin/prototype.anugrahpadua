@@ -17,8 +17,8 @@ const VnM = () => {
       <div className="grid lg:flex justify-center lg:justify-between w-full h-fit text-blue">
         <div className="w-full grid lg:w-[49%] bg-red bg-opacity-25 p-6 lg:p-10 rounded-sm h-fit lg:h-[500px] text-sm lg:text-lg mb-5 lg:mb-0 text-center">
           <div className="grid h-fit">
-            <div className="w-20 h-20 grid rounded-full bg-orange border-2 border-white mb-1 place-self-center items-center justify-center lg:mb-4">
-              <div className="bg-vision h-16 w-16 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+            <div className="w-24 h-24 grid rounded-full mb-1 place-self-center items-center justify-center lg:mb-4">
+              <div className="bg-vision h-[90px] w-[90px] bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
             </div>{" "}
             <p className="text-lg lg:text-2xl uppercase font-bold text-center mb-2 underline align-top">
               <Text tid={"vision"} />
@@ -30,8 +30,8 @@ const VnM = () => {
         </div>
         <div className="w-full grid lg:w-[49%] bg-red bg-opacity-25 p-6 lg:p-10 rounded-sm h-fit lg:h-[500px] text-sm lg:text-lg items-center">
           <div className="text-lg lg:text-2xl uppercase font-bold text-center mb-2 underline grid">
-            <div className="w-20 h-20 grid rounded-full bg-orange border-2 border-white mb-1 place-self-center items-center justify-center lg:mb-4">
-              <div className="bg-mission h-16 w-16 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+            <div className="w-24 h-24 grid rounded-full mb-1 place-self-center items-center justify-center lg:mb-4">
+              <div className="bg-mission h-[90px] w-[90px] bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
             </div>{" "}
             <Text tid={"mission"} />
           </div>

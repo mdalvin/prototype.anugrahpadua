@@ -13,24 +13,24 @@ const Advantages = () => {
       </div>
       <div className="flex lg:justify-center justify-between w-full h-fit text-blue py-2">
         <div className="grid w-[33%] h-fit text-center items-center justify-center">
-          <div className="w-24 h-24 grid rounded-full bg-orange border-2 border-red mb-1 place-self-center items-center justify-center">
-            <div className="bg-pricing h-20 w-20 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+          <div className="w-24 h-24 grid rounded-full bg-red mb-1 place-self-center items-center justify-center">
+            <div className="bg-pricing h-[90px] w-[90px] bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
           </div>{" "}
           <p className="font-semibold uppercase text-xs lg:text-lg">
             <Text tid={"point_1"} />
           </p>
         </div>
         <div className="grid w-[33%] h-fit text-center items-center justify-center">
-          <div className="w-24 h-24 grid rounded-full bg-orange border-2 border-red mb-1 place-self-center items-center justify-center">
-            <div className="bg-redroute h-20 w-20 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+          <div className="w-24 h-24 grid rounded-full bg-red mb-1 place-self-center items-center justify-center">
+            <div className="bg-redroute h-[90px] w-[90px] bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
           </div>{" "}
           <p className="font-semibold uppercase text-xs lg:text-lg">
             <Text tid={"point_2"} />
           </p>
         </div>
         <div className="grid w-[33%] h-fit text-center items-center justify-center">
-          <div className="w-24 h-24 grid rounded-full bg-orange border-2 border-red mb-1 place-self-center items-center justify-center">
-            <div className="bg-checklist h-20 w-20 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+          <div className="w-24 h-24 grid rounded-full bg-red mb-1 place-self-center items-center justify-center">
+            <div className="bg-checklist h-[90px] w-[90px] bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
           </div>{" "}
           <p className="font-semibold uppercase text-xs lg:text-lg">
             <Text tid={"point_3"} />
@@ -39,24 +39,24 @@ const Advantages = () => {
       </div>
       <div className="flex lg:justify-center justify-between w-full h-fit text-blue py-10">
         <div className="grid w-[33%] h-fit text-center items-center justify-center">
-          <div className="w-24 h-24 grid rounded-full bg-orange border-2 border-red mb-1 place-self-center items-center justify-center">
-            <div className="bg-permit h-20 w-20 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+          <div className="w-24 h-24 grid rounded-full bg-red mb-1 place-self-center items-center justify-center">
+            <div className="bg-permit h-[90px] w-[90px] bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
           </div>{" "}
           <p className="font-semibold uppercase text-xs lg:text-lg">
             <Text tid={"point_4"} />
           </p>
         </div>
         <div className="grid w-[33%] h-fit text-center items-center justify-center">
-          <div className="w-24 h-24 grid rounded-full bg-orange border-2 border-red mb-1 place-self-center items-center justify-center">
-            <div className="bg-dtd h-20 w-20 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+          <div className="w-24 h-24 grid rounded-full bg-red mb-1 place-self-center items-center justify-center">
+            <div className="bg-dtd h-[90px] w-[90px] bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
           </div>{" "}
           <p className="font-semibold uppercase text-xs lg:text-lg">
             <Text tid={"point_5"} />
           </p>
         </div>
         <div className="grid w-[33%] h-fit text-center items-center justify-center">
-          <div className="w-24 h-24 grid rounded-full bg-orange border-2 border-red mb-1 place-self-center items-center justify-center">
-            <div className="bg-shippingIns h-20 w-20 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+          <div className="w-24 h-24 grid rounded-full bg-red mb-1 place-self-center items-center justify-center">
+            <div className="bg-shippingIns h-[90px] w-[90px] bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
           </div>{" "}
           <p className="font-semibold uppercase text-xs lg:text-lg">
             <Text tid={"point_6"} />

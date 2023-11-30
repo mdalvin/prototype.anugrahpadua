@@ -11,6 +11,8 @@ import { Text } from "./containers/Language";
 
 const Navbar = () => {
   const [currentlyActive, setCurrentlyActive] = useState("Home");
+  const logo =
+    "https://ik.imagekit.io/6tebrod5l/anugrahpadua/ap_logo_4v_JaExxL.png?updatedAt=1701352957988";
 
   const scrollIntoTheView = (id) => {
     setCurrentlyActive(id);
@@ -27,22 +29,22 @@ const Navbar = () => {
   return (
     <>
       <div
-        className="w-screen hidden lg:flex py-4 px-[25px] lg:px-28 m-0 justify-end bg-white text-blue fixed z-50 shadow items-center"
+        className="w-screen hidden lg:flex py-4 px-[25px] lg:px-28 m-0 justify-between bg-white text-blue fixed z-50 shadow items-center"
         id="navbar"
       >
-        {/* <div className="flex lg:w-fit justify-between">
+        <div className="flex lg:w-fit justify-between">
           <Link href="/">
-            <div className="grid min-w-[150px] lg:w-fit font-sans align-center items-center cursor-pointer">
+            <div className="relative h-14 w-14">
               <Image
                 src={logo}
-                className="h-6 lg:h-10 w-[auto]"
-                alt="Logo"
+                alt="Gallery"
                 priority
-                onClick={() => scrollIntoTheView("home")}
+                crossOrigin="anonymous"
+                fill
               />
             </div>
           </Link>
-        </div> */}
+        </div>
         <div className="hidden lg:flex w-fit justify-around text-[16px] font-sans gap-10 py-5">
           <Link href="/">
             <h2

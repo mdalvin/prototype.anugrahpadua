@@ -18,8 +18,8 @@ const CompanyValues = () => {
       <div className="grid lg:flex justify-center lg:justify-between w-full h-fit text-blue">
         <div className="w-full grid lg:w-[32%] bg-red bg-opacity-25 p-6 lg:p-10 rounded-sm h-fit lg:h-[400px] text-sm lg:text-lg mb-5 lg:mb-0 text-center">
           <div className="h-fit grid">
-            <div className="w-20 h-20 grid rounded-full bg-orange border-2 border-white mb-2 place-self-center items-center justify-center lg:mb-4">
-              <div className="bg-quality h-16 w-16 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+            <div className="w-24 h-24 grid rounded-full mb-2 place-self-center items-center justify-center lg:mb-4">
+              <div className="bg-quality h-[90px] w-[90px] bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
             </div>{" "}
             <p className="text-lg lg:text-2xl uppercase font-semibold text-center mb-2 align-top">
               <Text tid={"cv_value_1_title"} />
@@ -31,8 +31,8 @@ const CompanyValues = () => {
         </div>
         <div className="w-full grid lg:w-[32%] bg-red bg-opacity-25 p-6 lg:p-10 rounded-sm h-fit lg:h-[400px] text-sm lg:text-lg mb-5 lg:mb-0 text-center">
           <div className="h-fit grid">
-            <div className="w-20 h-20 grid rounded-full bg-orange border-2 border-white mb-2 place-self-center items-center justify-center lg:mb-4">
-              <div className="bg-safety h-16 w-16 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+            <div className="w-24 h-24 grid rounded-full mb-2 place-self-center items-center justify-center lg:mb-4">
+              <div className="bg-safety h-[90px] w-[90px] bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
             </div>{" "}
             <p className="text-lg lg:text-2xl uppercase font-semibold text-center mb-2 align-top">
               <Text tid={"cv_value_2_title"} />
@@ -44,8 +44,8 @@ const CompanyValues = () => {
         </div>
         <div className="w-full grid lg:w-[32%] bg-red bg-opacity-25 p-6 lg:p-10 rounded-sm h-fit lg:h-[400px] text-sm lg:text-lg mb-5 lg:mb-0 text-center">
           <div className="h-fit grid">
-            <div className="w-20 h-20 grid rounded-full bg-orange border-2 border-white mb-2 place-self-center items-center justify-center lg:mb-4">
-              <div className="bg-inovation h-16 w-16 bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
+            <div className="w-24 h-24 grid rounded-full mb-2 place-self-center items-center justify-center lg:mb-4">
+              <div className="bg-inovation h-[90px] w-[90px] bg-cover bg-no-repeat bg-opacity-20 rounded-full" />
             </div>{" "}
             <p className="text-lg lg:text-2xl uppercase font-semibold text-center mb-2 align-top">
               <Text tid={"cv_value_3_title"} />

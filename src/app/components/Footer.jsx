@@ -42,15 +42,27 @@ const Footer = () => {
             </p>
           </div>
           <div className="w-fit flex items-center">
-            <p className="items-center">
-              <FacebookIcon />
-            </p>
-            <p className="mx-4 items-center">
-              <InstagramIcon />
-            </p>
-            <p className="items-center">
-              <LinkedInIcon />
-            </p>
+            <Link href="https://www.facebook.com/anugrahpadua" target="_blank">
+              <p className="items-center">
+                <FacebookIcon />
+              </p>
+            </Link>
+            <Link
+              href="https://instagram.com/pt.anugrahpadua?igshid=OGQ5ZDc2ODk2ZA=="
+              target="_blank"
+            >
+              <p className="mx-4 items-center">
+                <InstagramIcon />
+              </p>
+            </Link>
+            <Link
+              href="https://id.linkedin.com/company/pt-anugrah-padua"
+              target="_blank"
+            >
+              <p className="items-center">
+                <LinkedInIcon />
+              </p>
+            </Link>
           </div>
         </div>
         <div className="w-full lg:flex h-fit border-y-[1px] border-[#7391C5] py-10 justify-between">
