@@ -41,15 +41,6 @@ const Partnership = () => {
     "PT DAYA SUKSES SEJATI",
   ];
 
-  // const showrooms = [
-  //   "PT HANGTUAH PERKASA MOTOR PEKANBARU",
-  //   "PT MULTIPERINDO MOTOR PEKANBARU",
-  //   "PT DUTA PUTRA SUMATRA MEDAN",
-  //   "PT AUTOZONA JAYA PRATAMA JAKARTA",
-  //   "PT MUTIARA BERLIAN INDAH SAMARINDA",
-  //   "PT GANDA AUTO UTAMA JAKARTA",
-  // ];
-
   const bodyworks = [
     "PT SUKSES TUNGGAL MANDIRI TANGGERANG / CIKANDE",
     "PT RAINBOW ENGINERING JAKARTA",
@@ -214,8 +205,8 @@ const Partnership = () => {
           </ul>
         </div>
       </div>
-      <div className="grid md:flex lg:flex justify-between w-full h-fit text-blue py-2 mt-5 lg:mt-0">
-        <div className="grid h-fit w-full lg:w-[33%] text-center items-center justify-center mb-10 lg:mb-0">
+      <div className="grid md:flex lg:flex justify-normal lg:justify-between w-full h-fit text-blue py-2 mt-5 lg:mt-0">
+        <div className="grid h-fit w-full lg:w-[33%] text-center items-center lg:justify-center mb-10 lg:mb-0">
           <div className="relative w-60 h-40 place-self-center">
             <Image
               src={
@@ -236,7 +227,7 @@ const Partnership = () => {
             ))}
           </ul>
         </div>
-        <div className="grid h-fit w-full lg:w-[33%] text-center items-center justify-center mb-10 lg:mb-0">
+        <div className="grid h-fit w-full lg:w-[33%] text-center items-center lg:justify-center mb-10 lg:mb-0">
           <div className="relative w-60 h-40 place-self-center">
             <Image
               src={
@@ -252,7 +243,7 @@ const Partnership = () => {
             </li>
           </ul>
         </div>
-        <div className="grid h-fit w-full lg:w-[33%] text-center items-center justify-center mb-10 lg:mb-0">
+        <div className="grid h-fit w-full lg:w-[33%] text-center items-center lg:justify-center mb-10 lg:mb-0">
           <div className="relative w-60 h-40 place-self-center">
             <Image
               src={
@@ -273,18 +264,6 @@ const Partnership = () => {
         </div>
       </div>
       <div className="grid md:flex lg:flex justify-evenly w-full h-fit text-blue py-10 lg:px-7">
-        {/* <div className="grid h-fit w-full lg:w-[33%] text-center items-center justify-center mb-10 lg:mb-0">
-          <h1 className="text-blue text-4xl lg:text-4xl font-extrabold uppercase text-center mb-2">
-            <Text tid="showrooms" />
-          </h1>
-          <ul className="list-disc px-5 text-blue mt-2 text-left">
-            {showrooms.map((sr, i) => (
-              <li className="text-sm md:text-xs lg:text-sm mt-1 lg:mt-2 font-medium" key={i}>
-                {sr}
-              </li>
-            ))}
-          </ul>
-        </div> */}
         <div className="grid h-fit w-full lg:w-[33%] text-center items-center justify-center mb-10 lg:mb-0">
           <h1 className="text-blue text-4xl lg:text-4xl font-extrabold uppercase text-center mb-2">
             <Text tid="bodyworks" />

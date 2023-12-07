@@ -251,7 +251,7 @@ const ContactUs = () => {
             <h1 className="text-blue font-extrabold text-3xl lg:text-5xl capitalize">
               <Text tid={"touch"} />
             </h1>
-            <p className="text-blue text-xs lg:text-sm lg:mt-2">
+            <p className="text-blue text-sm lg:text-sm lg:mt-2">
               <Text tid={"touch_description"} />
             </p>
           </div>
