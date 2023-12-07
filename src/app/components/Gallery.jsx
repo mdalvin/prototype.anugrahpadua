@@ -7,39 +7,83 @@ const Gallery = () => {
   const pics = [
     {
       _id: "0",
-      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/g1_mQ_a47fwz.jpeg?updatedAt=1701352958067",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl1_6g-QSaXd1.jpg?updatedAt=1701844282553",
     },
     {
       _id: "1",
-      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/g2_IwC0iSuKwG.jpeg?updatedAt=1701352958136",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl2_CO6_LlI4i.jpg?updatedAt=1701844282504",
     },
     {
       _id: "2",
-      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/g3_P2M2cxQr_.jpeg?updatedAt=1701352957827",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl3_w-QgTOegu.jpg?updatedAt=1701844282500",
     },
     {
       _id: "3",
-      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/g4_f9wCwfnb8.jpeg?updatedAt=1701352958137",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl4_i1BVxsGh7.jpg?updatedAt=1701844282757",
     },
     {
       _id: "4",
-      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/g5_dz4-IppXYV.jpeg?updatedAt=1701352958122",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl5_9wQLCJMFd.JPG?updatedAt=1701844287598",
     },
     {
       _id: "5",
-      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/g6_v5QOdsk1q.jpeg?updatedAt=1701352958201",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl6_0MPLQcU8E.JPG?updatedAt=1701844287617",
     },
     {
       _id: "6",
-      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/g7_afA9TVu6mH.jpeg?updatedAt=1701352958331",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl7_DzYZe7Y7N.JPG?updatedAt=1701844289481",
     },
     {
       _id: "7",
-      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/g8_TKT4G0Uzbj.jpeg?updatedAt=1701352958482",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl8__k6jhCIII.JPG?updatedAt=1701844289779",
     },
     {
       _id: "8",
-      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/g9_-P4AO-wfzD.jpeg?updatedAt=1701352958231",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl21_rB0nFMhi9.JPG?updatedAt=1701844721836",
+    },
+    {
+      _id: "9",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl10_K4PMAFtS0.JPG?updatedAt=1701844288120",
+    },
+    {
+      _id: "10",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl11_On6BMJgEf.JPG?updatedAt=1701844291821",
+    },
+    {
+      _id: "11",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl12_BX5iDEfbh.JPG?updatedAt=1701844290780",
+    },
+    {
+      _id: "12",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl13_dsIlJcirb.JPG?updatedAt=1701844290257",
+    },
+    {
+      _id: "13",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl14_n8xk8rU1V.JPG?updatedAt=1701844290239",
+    },
+    {
+      _id: "14",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl15_dCMQPpPud.JPG?updatedAt=1701844295749",
+    },
+    {
+      _id: "15",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl16__nzpmSGu7.JPG?updatedAt=1701844296186",
+    },
+    {
+      _id: "16",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl17_SAboGK9uC.JPG?updatedAt=1701844295872",
+    },
+    {
+      _id: "17",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl18_ZoLEvK2iw.JPG?updatedAt=1701844297728",
+    },
+    {
+      _id: "18",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl19_wA7t16_pB.JPG?updatedAt=1701844297874",
+    },
+    {
+      _id: "19",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl20_kcd4a-pGt.JPG?updatedAt=1701844297121",
     },
   ];
   return (
@@ -49,14 +93,14 @@ const Gallery = () => {
     // >
     <div className="h-fit lg:h-fit w-screen bg-white text-left px-5 py-10 lg:px-40 lg:py-20 grid align-top bg-opacity-90">
       <div className="mb-5 lg:mb-10 w-full text-end">
-        <h1 className="text-blue text-3xl lg:text-6xl font-extrabold uppercase italic">
+        <h1 className="text-blue text-2xl lg:text-4xl font-extrabold uppercase italic">
           <Text tid="gallery" />
         </h1>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 lg:w-full h-[500px] lg:h-fit overflow-scroll justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 lg:w-full h-[500px] lg:h-fit overflow-scroll justify-center">
         {pics.map((p) => (
           <div
-            className="relative h-[320px] w-full lg:h-[355px] lg:w-[360px] my-1 lg:m-2"
+            className="relative h-[320px] w-full md:h-[160px] md:w-[175px] lg:h-[210px] lg:w-[210px] my-1 lg:m-2"
             key={p._id}
           >
             <Image
@@ -65,6 +109,7 @@ const Gallery = () => {
               priority
               crossOrigin="anonymous"
               fill
+              className="rounded-sm"
             />
           </div>
         ))}

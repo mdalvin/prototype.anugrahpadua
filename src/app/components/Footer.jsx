@@ -28,13 +28,13 @@ const Footer = () => {
       <div className="h-fit lg:h-fit w-screen bg-blue text-left px-5 lg:px-20 lg:py-0 grid align-top bg-opacity-95">
         <div className="w-full lg:justify-between py-4 flex text-[#7391C5] items-center">
           <div className="w-full lg:w-fit grid lg:flex items-center h-fit">
-            <p className="text-xs lg:text-sm mt-2 lg:mt-4 font-light flex mr-4 items-center text-white uppercase">
+            <p className="text-xs mt-2 lg:mt-4 font-light flex mr-4 items-center text-white uppercase">
               <span className="mr-1 text-red">
                 <EmailIcon />
               </span>
               ap@anugrahpadua.com
             </p>
-            <p className="text-xs lg:text-sm mt-2 lg:mt-4 font-light flex items-center text-white uppercase">
+            <p className="text-xs mt-2 lg:mt-4 font-light flex items-center text-white uppercase">
               <span className="mr-1 text-red">
                 <LanguageIcon />
               </span>
@@ -74,18 +74,18 @@ const Footer = () => {
                 </h1>
               </div>
               <ul className="list-none text-white uppercase">
-                <li className="text-xs lg:text-sm mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
+                <li className="text-xs mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
                   <Link href={"/services"}>
                     <Text tid={"service_1"} />
                   </Link>
                 </li>
-                <li className="text-xs lg:text-sm mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
+                <li className="text-xs mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
                   <Text tid={"service_2"} />
                 </li>
-                <li className="text-xs lg:text-sm mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
+                <li className="text-xs mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
                   <Text tid={"service_4"} />
                 </li>
-                <li className="text-xs lg:text-sm mt-2 lg:mt-4 font-light hover:text-red cursor-pointer w-[90%] lg:w-full">
+                <li className="text-xs mt-2 lg:mt-4 font-light hover:text-red cursor-pointer w-[90%] lg:w-full">
                   <Text tid={"service_5"} />
                 </li>
               </ul>
@@ -98,27 +98,27 @@ const Footer = () => {
               </div>
               <ul className="list-none text-white uppercase">
                 <Link href={"/"}>
-                  <li className="text-xs lg:text-sm mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
+                  <li className="text-xs mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
                     <Text tid={"home_nav"} />
                   </li>
                 </Link>
                 <Link href={"/about"}>
-                  <li className="text-xs lg:text-sm mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
+                  <li className="text-xs mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
                     <Text tid={"about_nav"} />
                   </li>
                 </Link>
                 <Link href={"/services"}>
-                  <li className="text-xs lg:text-sm mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
+                  <li className="text-xs mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
                     <Text tid={"service_nav"} />
                   </li>
                 </Link>
                 <Link href={"/payment"}>
-                  <li className="text-xs lg:text-sm mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
+                  <li className="text-xs mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
                     <Text tid={"payment_nav"} />
                   </li>
                 </Link>
                 <Link href={"/partnership"}>
-                  <li className="text-xs lg:text-sm mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
+                  <li className="text-xs mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
                     <Text tid={"partner_nav"} />
                   </li>
                 </Link>
@@ -133,23 +133,23 @@ const Footer = () => {
                 </h1>
               </div>
               <ul className="list-none text-white uppercase">
-                <li className="text-xs lg:text-sm mt-2 lg:mt-4 font-light flex items-center">
+                <li className="text-xs mt-2 lg:mt-4 font-light flex items-center">
                   <span className="mr-1 text-red">
                     <PhoneIcon />
                   </span>
                   021-28519810
                 </li>
-                <li className="text-xs lg:text-sm mt-2 lg:mt-4 font-light flex items-center">
+                <li className="text-xs mt-2 lg:mt-4 font-light flex items-center">
                   <span className="mr-1 text-red">
                     <PhoneIcon />
                   </span>
                   021-8843140
                 </li>
-                <li className="text-xs lg:text-sm mt-2 lg:mt-4 font-light w-[90%] flex">
+                <li className="text-xs mt-2 lg:mt-4 font-light w-[90%] flex">
                   <span className="mr-1 text-red">
                     <BusinessIcon />
                   </span>
-                  JL. RAYA HARAPAN BARU IID8 NO.8 KOTA BARU, BEKASI
+                  JL. RAYA HARAPAN BARU II D8 NO.8 KOTA BARU, BEKASI
                 </li>
               </ul>
             </div>
@@ -160,13 +160,13 @@ const Footer = () => {
                 </h1>
               </div>
               <ul className="list-none text-white uppercase">
-                <li className="text-xs lg:text-sm mt-2 lg:mt-4 font-light flex items-center">
+                <li className="text-xs mt-2 lg:mt-4 font-light flex items-center">
                   <span className="mr-1 text-red">
                     <PhoneIcon />
                   </span>
                   08129316841
                 </li>
-                <li className="text-xs lg:text-sm mt-2 lg:mt-4 font-light flex">
+                <li className="text-xs mt-2 lg:mt-4 font-light flex">
                   <span className="mr-1 text-red">
                     <WarehouseIcon />
                   </span>

@@ -27,7 +27,7 @@ const MobileNavbar = () => {
       >
         <div className="flex lg:w-fit justify-between">
           <Link href="/">
-            <div className="relative h-14 w-14">
+            <div className="relative h-12 w-12">
               <Image
                 src={logo}
                 alt="Gallery"
@@ -46,7 +46,7 @@ const MobileNavbar = () => {
         </button>
       </div>
       {isOpen ? (
-        <div className="grid lg:hidden h-72 justify-start text-[16px] font-sans z-40 fixed bg-blue right-0 w-full pt-14 text-white">
+        <div className="grid lg:hidden h-80 justify-start text-[16px] font-sans z-40 fixed bg-blue right-0 w-full pt-14 text-white">
           <div
             className={`w-screen h-fit p-2 ${
               currentlyActive === "home" ? "bg-red" : "bg-blue"
@@ -125,6 +125,23 @@ const MobileNavbar = () => {
                 onClick={() => onSelect("partnership")}
               >
                 <Text tid={"partner_nav"} />
+              </h2>
+            </Link>
+          </div>
+          <div
+            className={`w-screen h-fit p-2 ${
+              currentlyActive === "contact" ? "bg-red" : "bg-blue"
+            }`}
+          >
+            <Link href="/contact-us">
+              <h2
+                className="cursor-pointer uppercase text-sm"
+                style={{
+                  fontWeight: currentlyActive === "contact" ? "800" : "",
+                }}
+                onClick={() => onSelect("contact")}
+              >
+                <Text tid={"contact_nav"} />
               </h2>
             </Link>
           </div>

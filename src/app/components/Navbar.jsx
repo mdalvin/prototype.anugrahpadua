@@ -97,6 +97,17 @@ const Navbar = () => {
               <Text tid={"partner_nav"} />
             </h2>
           </Link>
+          <Link href="/contact-us">
+            <h2
+              className="cursor-pointer uppercase text-sm"
+              style={{
+                fontWeight: currentlyActive === "contact" ? "800" : "",
+              }}
+              onClick={() => setCurrentlyActive("contact")}
+            >
+              <Text tid={"contact_nav"} />
+            </h2>
+          </Link>
           <LanguageSelector />
         </div>
       </div>

@@ -11,7 +11,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/ezgif.com-gif-maker_rAl1U1WWp.jpg?updatedAt=1701153830023)",
+        hero: "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/hero_sGttUd_Sp.jpg?updatedAt=1701840135758)",
         about:
           "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/ap2_qrbgc1c73.jpeg?updatedAt=1701154634887)",
         map: "url(https://ik.imagekit.io/6tebrod5l/anugrahpadua/indo_map_fkh8jheYS.png?updatedAt=1701167783307)",
