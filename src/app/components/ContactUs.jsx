@@ -140,7 +140,7 @@ const ContactUs = () => {
                         </p>
                       </Link>
                     </div>
-                    <div className="w-[75%] text-white text-xs md:text-xs lg:text-sm">
+                    <div className="w-[75%] text-white text-sm md:text-xs lg:text-sm">
                       <Link
                         href="https://maps.app.goo.gl/xCwKGiWPbxqj1yE27"
                         target="_blank"
@@ -162,7 +162,7 @@ const ContactUs = () => {
                         </p>
                       </Link>
                     </div>
-                    <div className="w-[75%] text-white text-xs md:text-xs lg:text-sm">
+                    <div className="w-[75%] text-white text-sm md:text-xs lg:text-sm">
                       <Link
                         href="https://maps.app.goo.gl/xCwKGiWPbxqj1yE27"
                         target="_blank"
@@ -208,7 +208,7 @@ const ContactUs = () => {
                         </p>
                       </Link>
                     </div>
-                    <div className="w-[75%] text-white text-xs md:text-xs lg:text-sm">
+                    <div className="w-[75%] text-white text-sm md:text-xs lg:text-sm">
                       <Link
                         href="https://maps.app.goo.gl/CMmLxfBJfEkDrv1m9"
                         target="_blank"
@@ -230,7 +230,7 @@ const ContactUs = () => {
                         </p>
                       </Link>
                     </div>
-                    <div className="w-[75%] text-white text-xs md:text-xs lg:text-sm">
+                    <div className="w-[75%] text-white text-sm md:text-xs lg:text-sm">
                       <Link
                         href="https://maps.app.goo.gl/CMmLxfBJfEkDrv1m9"
                         target="_blank"
@@ -293,19 +293,23 @@ const ContactUs = () => {
               </div>
             </div>
             <div className="flex w-full h-fit text-left items-end justify-end">
-              <button
-                className="lg:w-[25%] py-2 px-5 bg-blue text-white rounded-full border-2 border-white text-sm"
-                disabled={
-                  name === "" || email === "" || message === "" ? true : false
-                }
+              <Link
+                href={`https://wa.me/8118113956?text=${template}`}
+                target="_blank"
               >
-                <Link
-                  href={`https://wa.me/8118113956?text=${template}`}
-                  target="_blank"
+                <button
+                  className={`w-fit py-2 px-5 ${
+                    name === "" || email === "" || message === ""
+                      ? "bg-[#b6b6b6]"
+                      : "bg-blue"
+                  } text-white rounded-full border-2 border-white text-sm`}
+                  disabled={
+                    name === "" || email === "" || message === "" ? true : false
+                  }
                 >
                   <Text tid={"touch_button"} />
-                </Link>
-              </button>
+                </button>
+              </Link>
             </div>
           </div>
         </div>

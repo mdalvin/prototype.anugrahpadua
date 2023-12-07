@@ -75,18 +75,24 @@ const Footer = () => {
               </div>
               <ul className="list-none text-white uppercase">
                 <li className="text-xs mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
-                  <Link href={"/services"}>
+                  <Link href={"/services#land-freight"}>
                     <Text tid={"service_1"} />
                   </Link>
                 </li>
                 <li className="text-xs mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
-                  <Text tid={"service_2"} />
+                  <Link href={"/services#sea-freight"}>
+                    <Text tid={"service_2"} />
+                  </Link>
                 </li>
                 <li className="text-xs mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
-                  <Text tid={"service_4"} />
+                  <Link href={"/services#vehicle-shipment"}>
+                    <Text tid={"service_4"} />
+                  </Link>
                 </li>
                 <li className="text-xs mt-2 lg:mt-4 font-light hover:text-red cursor-pointer w-[90%] lg:w-full">
-                  <Text tid={"service_5"} />
+                  <Link href={"/services#heavy-equipment-shipment"}>
+                    <Text tid={"service_5"} />
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -120,6 +126,11 @@ const Footer = () => {
                 <Link href={"/partnership"}>
                   <li className="text-xs mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
                     <Text tid={"partner_nav"} />
+                  </li>
+                </Link>
+                <Link href={"/contact-us"}>
+                  <li className="text-xs mt-2 lg:mt-4 font-light hover:text-red cursor-pointer">
+                    <Text tid={"contact_nav"} />
                   </li>
                 </Link>
               </ul>
