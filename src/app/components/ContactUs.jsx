@@ -31,65 +31,53 @@ const ContactUs = () => {
               </h1>
             </div>
             <div className="grid grid-cols-2 w-full h-fit mb-4 mt-4 lg:mb-10 lg:mt-0 gap-4">
-              <div className="grid w-full py-1 h-20 md:h-20 text-left items-center justify-center align-middle bg-[#7391C5] rounded-sm hover:bg-bluish hover:text-blue ease-in-out duration-200 cursor-pointer">
-                <div>
-                  <Link
-                    href="https://www.facebook.com/anugrahpadua"
-                    target="_blank"
-                  >
+              <Link
+                href="https://www.facebook.com/anugrahpadua"
+                target="_blank"
+              >
+                <div className="grid w-full py-1 h-20 md:h-20 text-left items-center justify-center align-middle bg-[#7391C5] rounded-sm hover:bg-bluish hover:text-blue ease-in-out duration-200 cursor-pointer">
+                  <div>
                     <p className="items-center text-xs">
                       <FacebookIcon />
                     </p>
-                  </Link>
+                  </div>
                 </div>
-                {/* <div className="w-[75%] text-white text-sm md:text-xs">
-                  <p>Facebook</p>
-                </div> */}
-              </div>
-              <div className="grid w-full py-1 h-20 md:h-20 text-left items-center justify-center align-middle bg-[#7391C5] rounded-sm hover:bg-bluish hover:text-blue ease-in-out duration-200 cursor-pointer">
-                <div>
-                  <Link
-                    href="https://instagram.com/pt.anugrahpadua?igshid=OGQ5ZDc2ODk2ZA=="
-                    target="_blank"
-                  >
+              </Link>
+              <Link
+                href="https://instagram.com/pt.anugrahpadua?igshid=OGQ5ZDc2ODk2ZA=="
+                target="_blank"
+              >
+                <div className="grid w-full py-1 h-20 md:h-20 text-left items-center justify-center align-middle bg-[#7391C5] rounded-sm hover:bg-bluish hover:text-blue ease-in-out duration-200 cursor-pointer">
+                  <div>
                     <p className="items-center text-xs">
                       <InstagramIcon />
                     </p>
-                  </Link>
+                  </div>
                 </div>
-                {/* <div className="w-[75%] text-white text-sm md:text-xs">
-                  <p>Instagram</p>
-                </div> */}
-              </div>
-              <div
-                className={`grid w-full py-1 h-20 md:h-20 text-left items-center justify-center align-middle bg-[#7391C5] rounded-sm hover:bg-bluish hover:text-blue ease-in-out duration-200 cursor-pointer`}
+              </Link>
+              <Link
+                href="https://id.linkedin.com/company/pt-anugrah-padua"
+                target="_blank"
               >
-                <div>
-                  <Link
-                    href="https://id.linkedin.com/company/pt-anugrah-padua"
-                    target="_blank"
-                  >
+                <div
+                  className={`grid w-full py-1 h-20 md:h-20 text-left items-center justify-center align-middle bg-[#7391C5] rounded-sm hover:bg-bluish hover:text-blue ease-in-out duration-200 cursor-pointer`}
+                >
+                  <div>
                     <p className="items-center text-xs">
                       <LinkedInIcon />
                     </p>
-                  </Link>
+                  </div>
                 </div>
-                {/* <div className="w-[75%] text-white text-sm md:text-xs">
-                  <p>LinkedIn</p>
-                </div> */}
-              </div>
-              <div className="grid w-full py-1 h-20 md:h-20 text-left items-center justify-center align-middle bg-[#7391C5] rounded-sm hover:bg-bluish hover:text-blue ease-in-out duration-200 cursor-pointer">
-                <div>
-                  <Link href="mailto:adm@anugrahpadua.com" target="_blank">
+              </Link>
+              <Link href="mailto:adm@anugrahpadua.com" target="_blank">
+                <div className="grid w-full py-1 h-20 md:h-20 text-left items-center justify-center align-middle bg-[#7391C5] rounded-sm hover:bg-bluish hover:text-blue ease-in-out duration-200 cursor-pointer">
+                  <div>
                     <p className="items-center text-xs">
                       <EmailIcon />
                     </p>
-                  </Link>
+                  </div>
                 </div>
-                {/* <div className="w-[75%] text-white text-sm md:text-xs">
-                  <p>LinkedIn</p>
-                </div> */}
-              </div>
+              </Link>
             </div>
             <div className="grid md:flex lg:flex w-full md:gap-2 lg:gap-4 h-fit justify-between">
               <div className="w-full md:w-[50%] lg:w-[50%] grid h-fit gap-1">

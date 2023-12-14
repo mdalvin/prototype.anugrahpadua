@@ -78,6 +78,7 @@ module.exports = {
         lg: "1024px",
         xl: "1440px",
         xxl: "1920px",
+        txl: "2256px",
       },
       fontFamily: {
         sans: ["var(--font-mulish)"],

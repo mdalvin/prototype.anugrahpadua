@@ -97,7 +97,7 @@ const Gallery = () => {
           <Text tid="gallery" />
         </h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 xxl:grid-cols-5 lg:w-full h-[500px] lg:h-fit overflow-scroll justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 xxl:grid-cols-5 txl:grid-cols-7 lg:w-full h-[500px] lg:h-fit overflow-scroll justify-center">
         {pics.map((p) => (
           <div
             className="relative h-[320px] w-full md:h-[160px] md:w-[175px] lg:h-[210px] lg:w-[210px] xxl:h-[280px] xxl:w-[300px] my-1 lg:m-2"
