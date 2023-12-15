@@ -11,7 +11,7 @@ const Gallery = () => {
     },
     {
       _id: "1",
-      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl2_CO6_LlI4i.jpg?updatedAt=1701844282504",
+      link: "https://ik.imagekit.io/6tebrod5l/anugrahpadua/photos/gl31_5h8bMS76h.JPG?updatedAt=1702605671343",
     },
     {
       _id: "2",
