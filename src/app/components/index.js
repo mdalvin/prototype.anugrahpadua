@@ -17,3 +17,4 @@ export { default as Footer } from "./Footer";
 export { default as MobileNavbar } from "./MobileNavbar";
 export { default as Gallery } from "./Gallery";
 export { default as ContactUs } from "./ContactUs";
+export { default as MediaPlayer } from "./MediaPlayer";

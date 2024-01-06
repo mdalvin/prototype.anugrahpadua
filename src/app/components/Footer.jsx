@@ -9,6 +9,9 @@ import BusinessIcon from "@mui/icons-material/Business";
 import WarehouseIcon from "@mui/icons-material/Warehouse";
 import EmailIcon from "@mui/icons-material/Email";
 import LanguageIcon from "@mui/icons-material/Language";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import { FaTiktok } from "react-icons/fa";
 import { Text } from "./containers/Language";
 
 const Footer = () => {
@@ -41,26 +44,33 @@ const Footer = () => {
               www.anugrahpadua.com
             </p>
           </div>
-          <div className="w-fit flex items-center">
-            <Link href="https://www.facebook.com/anugrahpadua" target="_blank">
+          <div className="w-fit flex items-center gap-2 lg:gap-2">
+            <Link
+              href="htps:/www.instagram.com/anugrahpadua.id/"
+              target="_blank"
+            >
+              <p className="items-center">
+                <InstagramIcon />
+              </p>
+            </Link>
+            <Link href="htps:/www.facebook.com/anugrahpadua.id" target="_blank">
               <p className="items-center">
                 <FacebookIcon />
               </p>
             </Link>
-            <Link
-              href="https://instagram.com/pt.anugrahpadua?igshid=OGQ5ZDc2ODk2ZA=="
-              target="_blank"
-            >
-              <p className="mx-4 items-center">
-                <InstagramIcon />
+            <Link href="htps:/www.youtube.com/@anugrahpadua" target="_blank">
+              <p className="items-center">
+                <YouTubeIcon />
               </p>
             </Link>
-            <Link
-              href="https://id.linkedin.com/company/pt-anugrah-padua"
-              target="_blank"
-            >
+            <Link href="htps:/wa.me/6281181200031" target="_blank">
               <p className="items-center">
-                <LinkedInIcon />
+                <WhatsAppIcon />
+              </p>
+            </Link>
+            <Link href="htps:/www.tiktok.com/@anugrahpadua.id" target="_blank">
+              <p className="items-center">
+                <FaTiktok />
               </p>
             </Link>
           </div>
@@ -177,11 +187,12 @@ const Footer = () => {
                   </span>
                   08129316841
                 </li>
-                <li className="text-xs mt-2 lg:mt-4 font-light flex">
+                <li className="text-xs mt-2 lg:mt-4 font-light flex uppercase">
                   <span className="mr-1 text-red">
                     <WarehouseIcon />
                   </span>
-                  JL. RAYA LEMAH ABANG Ds SIMPANGAN, KEL. CIKARANG UTARA
+                  Jl. Raya Lemahabang, Simpangan, Kec. Cikarang Utara, Kabupaten
+                  Bekasi, Jawa Barat 17530
                 </li>
               </ul>
             </div>

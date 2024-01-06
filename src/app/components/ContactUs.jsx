@@ -32,7 +32,7 @@ const ContactUs = () => {
             </div>
             <div className="grid grid-cols-2 w-full h-fit mb-4 mt-4 lg:mb-10 lg:mt-0 gap-4">
               <Link
-                href="https://www.facebook.com/anugrahpadua"
+                href="https://www.facebook.com/anugrahpadua.id"
                 target="_blank"
               >
                 <div className="grid w-full py-1 h-20 md:h-20 text-left items-center justify-center align-middle bg-[#7391C5] rounded-sm hover:bg-bluish hover:text-blue ease-in-out duration-200 cursor-pointer">
@@ -44,7 +44,7 @@ const ContactUs = () => {
                 </div>
               </Link>
               <Link
-                href="https://instagram.com/pt.anugrahpadua?igshid=OGQ5ZDc2ODk2ZA=="
+                href="https://www.instagram.com/anugrahpadua.id"
                 target="_blank"
               >
                 <div className="grid w-full py-1 h-20 md:h-20 text-left items-center justify-center align-middle bg-[#7391C5] rounded-sm hover:bg-bluish hover:text-blue ease-in-out duration-200 cursor-pointer">
@@ -210,7 +210,7 @@ const ContactUs = () => {
                   <div className="flex w-full py-1 h-fit text-left">
                     <div className="text-white mr-2">
                       <Link
-                        href="https://maps.app.goo.gl/CMmLxfBJfEkDrv1m9"
+                        href="htps:/maps.app.goo.gl/v5Mbc9Zm8PMjtfba9"
                         target="_blank"
                       >
                         <p className="items-center text-xs">
@@ -220,11 +220,12 @@ const ContactUs = () => {
                     </div>
                     <div className="w-[75%] text-white text-sm md:text-xs lg:text-sm">
                       <Link
-                        href="https://maps.app.goo.gl/CMmLxfBJfEkDrv1m9"
+                        href="htps:/maps.app.goo.gl/v5Mbc9Zm8PMjtfba9"
                         target="_blank"
                       >
                         <p>
-                          JL. Raya Lemah Abang Ds Simpangan, Kel. Cikarang Utara
+                          Jl. Raya Lemahabang, Simpangan, Kec. Cikarang Utara,
+                          Kabupaten Bekasi, Jawa Barat 17530
                         </p>
                       </Link>
                     </div>

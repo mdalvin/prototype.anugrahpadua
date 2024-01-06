@@ -149,6 +149,17 @@ const Partner = () => {
             />
           </div>
         </div>
+        <div className="grid h-fit w-full text-center items-center justify-center">
+          <div className="relative w-28 h-24 lg:w-40 lg:h-36 place-self-center">
+            <Image
+              src={
+                "https://ik.imagekit.io/6tebrod5l/anugrahpadua/logos/mercedes_1qYjs_x-t.png?updatedAt=1704529592056"
+              }
+              alt="Partnership"
+              fill
+            />
+          </div>
+        </div>
       </div>
       <div className="grid justify-center w-full h-fit text-blue mt-12 lg:mt-6">
         <Link href={"/partnership"}>
