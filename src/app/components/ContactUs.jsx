@@ -86,7 +86,7 @@ const ContactUs = () => {
                     Head Office
                   </h1>
                 </div>
-                <div className="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-1 w-full h-fit mb-4 lg:mb-10 lg:mt-0 gap-2 md:gap-1">
+                <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 w-full h-fit mb-4 lg:mb-10 lg:mt-0 gap-2 md:gap-1">
                   <div className="flex w-full py-1 h-fit text-left items-center">
                     <div className="text-white mr-2">
                       <Link
@@ -128,7 +128,7 @@ const ContactUs = () => {
                         </p>
                       </Link>
                     </div>
-                    <div className="w-[75%] text-white text-sm md:text-xs lg:text-sm">
+                    <div className="w-full text-white text-sm md:text-xs lg:text-sm">
                       <Link
                         href="https://maps.app.goo.gl/xCwKGiWPbxqj1yE27"
                         target="_blank"
@@ -139,7 +139,7 @@ const ContactUs = () => {
                       </Link>
                     </div>
                   </div>
-                  <div className="flex w-fit p-1 h-fit text-left items-center bg-[#7391C5] rounded-xl hover:bg-bluish hover:text-blue">
+                  <div className="flex w-fit p-1 h-fit text-left items-center bg-[#7391C5] rounded-md hover:bg-bluish hover:text-blue">
                     <div className="text-white mr-2">
                       <Link
                         href="https://maps.app.goo.gl/xCwKGiWPbxqj1yE27"
@@ -150,7 +150,7 @@ const ContactUs = () => {
                         </p>
                       </Link>
                     </div>
-                    <div className="w-[75%] text-white text-sm md:text-xs lg:text-sm">
+                    <div className="w-full text-white text-sm md:text-xs lg:text-sm">
                       <Link
                         href="https://maps.app.goo.gl/xCwKGiWPbxqj1yE27"
                         target="_blank"
@@ -169,7 +169,7 @@ const ContactUs = () => {
                     Warehouse
                   </h1>
                 </div>
-                <div className="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-1 w-full h-fit mb-4 lg:mb-10 lg:mt-0 gap-2">
+                <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 w-full h-fit mb-4 lg:mb-10 lg:mt-0 gap-2">
                   <div className="flex w-full py-1 h-fit text-left items-center">
                     <div className="text-white mr-2">
                       <Link
@@ -196,7 +196,7 @@ const ContactUs = () => {
                         </p>
                       </Link>
                     </div>
-                    <div className="w-[75%] text-white text-sm md:text-xs lg:text-sm">
+                    <div className="w-full text-white text-sm md:text-xs lg:text-sm">
                       <Link
                         href="htps:/maps.app.goo.gl/v5Mbc9Zm8PMjtfba9"
                         target="_blank"
@@ -208,7 +208,7 @@ const ContactUs = () => {
                       </Link>
                     </div>
                   </div>
-                  <div className="flex w-fit p-1 h-fit text-left items-center bg-[#7391C5] rounded-xl hover:bg-bluish hover:text-blue">
+                  <div className="flex w-fit p-1 h-fit text-left items-center bg-[#7391C5] rounded-md hover:bg-bluish hover:text-blue">
                     <div className="text-white mr-2">
                       <Link
                         href="https://maps.app.goo.gl/CMmLxfBJfEkDrv1m9"
@@ -219,7 +219,7 @@ const ContactUs = () => {
                         </p>
                       </Link>
                     </div>
-                    <div className="w-[75%] text-white text-sm md:text-xs lg:text-sm">
+                    <div className="w-full text-white text-sm md:text-xs lg:text-sm">
                       <Link
                         href="https://maps.app.goo.gl/CMmLxfBJfEkDrv1m9"
                         target="_blank"

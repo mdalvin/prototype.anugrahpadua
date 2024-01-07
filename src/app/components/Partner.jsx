@@ -150,7 +150,7 @@ const Partner = () => {
           </div>
         </div>
         <div className="grid h-fit w-full text-center items-center justify-center">
-          <div className="relative w-28 h-24 lg:w-40 lg:h-36 place-self-center">
+          <div className="relative w-28 h-[102px] lg:w-40 lg:h-36 place-self-center">
             <Image
               src={
                 "https://ik.imagekit.io/6tebrod5l/anugrahpadua/logos/mercedes_1qYjs_x-t.png?updatedAt=1704529592056"
