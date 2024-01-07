@@ -46,29 +46,35 @@ const Footer = () => {
           </div>
           <div className="w-fit flex items-center gap-2 lg:gap-2">
             <Link
-              href="htps:/www.instagram.com/anugrahpadua.id/"
+              href="https://www.instagram.com/anugrahpadua.id/"
               target="_blank"
             >
               <p className="items-center">
                 <InstagramIcon />
               </p>
             </Link>
-            <Link href="htps:/www.facebook.com/anugrahpadua.id" target="_blank">
+            <Link
+              href="https://www.facebook.com/anugrahpadua.id"
+              target="_blank"
+            >
               <p className="items-center">
                 <FacebookIcon />
               </p>
             </Link>
-            <Link href="htps:/www.youtube.com/@anugrahpadua" target="_blank">
+            <Link href="https://www.youtube.com/@anugrahpadua" target="_blank">
               <p className="items-center">
                 <YouTubeIcon />
               </p>
             </Link>
-            <Link href="htps:/wa.me/6281181200031" target="_blank">
+            <Link href="https://wa.me/6281181200031" target="_blank">
               <p className="items-center">
                 <WhatsAppIcon />
               </p>
             </Link>
-            <Link href="htps:/www.tiktok.com/@anugrahpadua.id" target="_blank">
+            <Link
+              href="https://www.tiktok.com/@anugrahpadua.id"
+              target="_blank"
+            >
               <p className="items-center">
                 <FaTiktok />
               </p>

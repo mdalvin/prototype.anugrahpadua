@@ -117,28 +117,6 @@ const ContactUs = () => {
                       <p>021-8843140</p>
                     </div>
                   </div>
-                  <div className="flex w-full py-1 h-fit text-left items-center">
-                    <div className="text-white mr-2">
-                      <Link
-                        href="https://maps.app.goo.gl/xCwKGiWPbxqj1yE27"
-                        target="_blank"
-                      >
-                        <p className="items-center text-xs">
-                          <ExploreIcon />
-                        </p>
-                      </Link>
-                    </div>
-                    <div className="w-[75%] text-white text-sm md:text-xs lg:text-sm">
-                      <Link
-                        href="https://maps.app.goo.gl/xCwKGiWPbxqj1yE27"
-                        target="_blank"
-                      >
-                        <p>
-                          <Text tid={"find_map"} />
-                        </p>
-                      </Link>
-                    </div>
-                  </div>
                   <div className="flex w-full py-1 h-fit text-left">
                     <div className="text-white mr-2">
                       <Link
@@ -157,6 +135,28 @@ const ContactUs = () => {
                       >
                         <p>
                           JL. Raya Harapan Baru II D8 NO.8 Kota Baru, Bekasi
+                        </p>
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="flex w-fit p-1 h-fit text-left items-center bg-[#7391C5] rounded-xl hover:bg-bluish hover:text-blue">
+                    <div className="text-white mr-2">
+                      <Link
+                        href="https://maps.app.goo.gl/xCwKGiWPbxqj1yE27"
+                        target="_blank"
+                      >
+                        <p className="items-center text-xs">
+                          <ExploreIcon />
+                        </p>
+                      </Link>
+                    </div>
+                    <div className="w-[75%] text-white text-sm md:text-xs lg:text-sm">
+                      <Link
+                        href="https://maps.app.goo.gl/xCwKGiWPbxqj1yE27"
+                        target="_blank"
+                      >
+                        <p>
+                          <Text tid={"find_map"} />
                         </p>
                       </Link>
                     </div>
@@ -185,28 +185,6 @@ const ContactUs = () => {
                       <p>08129316841</p>
                     </div>
                   </div>
-                  <div className="flex w-full py-1 h-fit text-left items-center">
-                    <div className="text-white mr-2">
-                      <Link
-                        href="https://maps.app.goo.gl/CMmLxfBJfEkDrv1m9"
-                        target="_blank"
-                      >
-                        <p className="items-center text-xs">
-                          <ExploreIcon />
-                        </p>
-                      </Link>
-                    </div>
-                    <div className="w-[75%] text-white text-sm md:text-xs lg:text-sm">
-                      <Link
-                        href="https://maps.app.goo.gl/CMmLxfBJfEkDrv1m9"
-                        target="_blank"
-                      >
-                        <p>
-                          <Text tid={"find_map"} />
-                        </p>
-                      </Link>
-                    </div>
-                  </div>
                   <div className="flex w-full py-1 h-fit text-left">
                     <div className="text-white mr-2">
                       <Link
@@ -226,6 +204,28 @@ const ContactUs = () => {
                         <p>
                           Jl. Raya Lemahabang, Simpangan, Kec. Cikarang Utara,
                           Kabupaten Bekasi, Jawa Barat 17530
+                        </p>
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="flex w-fit p-1 h-fit text-left items-center bg-[#7391C5] rounded-xl hover:bg-bluish hover:text-blue">
+                    <div className="text-white mr-2">
+                      <Link
+                        href="https://maps.app.goo.gl/CMmLxfBJfEkDrv1m9"
+                        target="_blank"
+                      >
+                        <p className="items-center text-xs">
+                          <ExploreIcon />
+                        </p>
+                      </Link>
+                    </div>
+                    <div className="w-[75%] text-white text-sm md:text-xs lg:text-sm">
+                      <Link
+                        href="https://maps.app.goo.gl/CMmLxfBJfEkDrv1m9"
+                        target="_blank"
+                      >
+                        <p>
+                          <Text tid={"find_map"} />
                         </p>
                       </Link>
                     </div>
