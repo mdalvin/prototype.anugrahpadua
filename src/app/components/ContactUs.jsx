@@ -188,7 +188,7 @@ const ContactUs = () => {
                   <div className="flex w-full py-1 h-fit text-left">
                     <div className="text-white mr-2">
                       <Link
-                        href="htps:/maps.app.goo.gl/v5Mbc9Zm8PMjtfba9"
+                        href="https://maps.app.goo.gl/v5Mbc9Zm8PMjtfba9"
                         target="_blank"
                       >
                         <p className="items-center text-xs">
@@ -198,7 +198,7 @@ const ContactUs = () => {
                     </div>
                     <div className="w-full text-white text-sm md:text-xs lg:text-sm">
                       <Link
-                        href="htps:/maps.app.goo.gl/v5Mbc9Zm8PMjtfba9"
+                        href="https://maps.app.goo.gl/v5Mbc9Zm8PMjtfba9"
                         target="_blank"
                       >
                         <p>
@@ -211,7 +211,7 @@ const ContactUs = () => {
                   <div className="flex w-fit p-1 h-fit text-left items-center bg-[#7391C5] rounded-md hover:bg-bluish hover:text-blue">
                     <div className="text-white mr-2">
                       <Link
-                        href="https://maps.app.goo.gl/CMmLxfBJfEkDrv1m9"
+                        href="https://maps.app.goo.gl/v5Mbc9Zm8PMjtfba9"
                         target="_blank"
                       >
                         <p className="items-center text-xs">
@@ -221,7 +221,7 @@ const ContactUs = () => {
                     </div>
                     <div className="w-full text-white text-sm md:text-xs lg:text-sm">
                       <Link
-                        href="https://maps.app.goo.gl/CMmLxfBJfEkDrv1m9"
+                        href="https://maps.app.goo.gl/v5Mbc9Zm8PMjtfba9"
                         target="_blank"
                       >
                         <p>

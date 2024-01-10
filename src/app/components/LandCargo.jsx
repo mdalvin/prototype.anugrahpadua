@@ -42,7 +42,7 @@ const LangCargo = () => {
             <Text tid={"land_cargo_point_5"} />
           </li>
         </ul>
-        <p className="text-xs lg:text-base mt-4 lg:mt-4 font-light">
+        <p className="text-xs lg:text-base mt-4 lg:mt-4 font-light text-white">
           <Text tid={"land_cargo_closing"} />
         </p>
       </div>
